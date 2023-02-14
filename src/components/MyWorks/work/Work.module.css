@@ -3,13 +3,21 @@
     border: 1px solid;
 }
 
-.image {
-    width: 400px;
+.imgContainer {
+    width: 100%;
     height: 300px;
     background-color: darkgray;
+    background-size: cover;
+    background-image: url(https://oir.mobi/uploads/posts/2021-04/1619619348_59-oir_mobi-p-samie-milie-kotiki-zhivotnie-krasivo-foto-65.jpg);
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.imgContainer a {
+    padding: 15px;
+    background-color: dimgrey;
 }
 
 .text {

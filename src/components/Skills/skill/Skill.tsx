@@ -15,9 +15,8 @@ export const Skill = (props: SkillType) => {
                    alt="skill"/>
           </div>
 
-          <h3 className={style.title}>{props.title}</h3>
-          <p className={style.description}>{props.description}</p>
-
+          <h3 >{props.title}</h3>
+          <p >{props.description}</p>
       </div>
 
     );

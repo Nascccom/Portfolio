@@ -1,9 +1,10 @@
 .worksBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgba(170, 163, 236, 0.83);
 }
 
 .worksContainer {
+    min-height: 100vh;
     flex-direction: column;
 }
 
@@ -13,8 +14,9 @@
 
 .works {
     width: 100%;
-    border: 1px solid;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
+    gap: 15px;
+    margin-bottom: 50px;
 }

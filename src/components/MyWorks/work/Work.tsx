@@ -9,7 +9,7 @@ type WorkType = {
 export const Work = (props: WorkType) => {
     return (
       <div className={style.work}>
-          <div className={style.image}>
+          <div className={style.imgContainer}>
               <a href="#">
                   Watching
               </a>

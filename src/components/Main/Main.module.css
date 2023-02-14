@@ -1,21 +1,38 @@
 .mainBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #2cb80b4f;
 }
 
 .mainContainer {
+    height: 100vh;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .title {
     background-color: #ddcfcf;
+    padding: 10px;
 }
 
 .photo {
     width: 300px;
     height: 400px;
     background-color: #ddcfcf;
+}
+
+@media (max-width: 930px) {
+    .mainContainer {
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .photo {
+        width: 200px;
+        height: 300px;
+    }
 
 }

@@ -1,0 +1,9 @@
+.header {
+    height: 80px;
+    background-color: cornsilk;
+}
+
+.headerContainer {
+    align-items: center;
+    justify-content: flex-end;
+}

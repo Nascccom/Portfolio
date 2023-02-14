@@ -1,0 +1,21 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #2cb80b4f;
+}
+
+.mainContainer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #ddcfcf;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #ddcfcf;
+
+}

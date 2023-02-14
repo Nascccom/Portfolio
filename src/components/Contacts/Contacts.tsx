@@ -6,22 +6,11 @@ export const Contacts = () => {
     return (
       <div className={style.contactsBlock}>
           <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-              <h1>Contacts</h1>
+              <h2 className={style.title}>Contacts</h2>
               <form className={style.form}>
-                  <div className={style.inputFields}>
-                      <div>
-                          <span></span>
-                          <input/>
-                      </div>
-                      <div>
-                          <span></span>
-                          <input/>
-                      </div>
-                      <div>
-                          <span></span>
-                          <textarea name="" id=""></textarea>
-                      </div>
-                  </div>
+                      <input/>
+                      <input/>
+                      <textarea name="" id=""></textarea>
                   <button>Send</button>
               </form>
           </div>

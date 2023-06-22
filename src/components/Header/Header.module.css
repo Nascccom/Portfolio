@@ -1,9 +1,22 @@
 .header {
-    height: 80px;
-    background-color: cornsilk;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    width: 100px;
+    /*left: -180px;*/
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    transition: all .35s ease;     /* read*/
+    background-color: var(--px-gray-2);
+    border-right: 1px solid var(--px-border);
 }
 
 .headerContainer {
-    align-items: center;
-    justify-content: flex-end;
+    display: flex;
+    margin: 0;
+    padding: 20px 0;
+    list-style: none;
+    justify-content: center;
+
 }

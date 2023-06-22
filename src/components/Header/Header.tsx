@@ -6,9 +6,12 @@ import styleContainer from "../../common/styles/Container.module.css";
 export const Header = () => {
     return (
       <div className={style.header}>
-          <div className={`${styleContainer.container} ${style.headerContainer}`}>
+          {/*<div className={`${styleContainer.container} ${style.headerContainer}`}>*/}
               <NavBar/>
+          <div className={style.themeBtn}>
+              <button style={{backgroundColor: '#fff'}} className={style.dropdownToggle }></button>
           </div>
+          {/*</div>*/}
       </div>
     );
 };

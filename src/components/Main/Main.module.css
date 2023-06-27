@@ -1,6 +1,8 @@
+
+
 .mainBlock {
     min-height: 100vh;
-    background-color: #2cb80b4f;
+    background-color: var(--px-gray-1);
 }
 
 .mainContainer {

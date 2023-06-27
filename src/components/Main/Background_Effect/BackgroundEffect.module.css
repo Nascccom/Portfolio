@@ -1,0 +1,78 @@
+.background_effect {
+    background-image: url("../../../common/assets/bg-effect-1.png");
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    pointer-events: none;
+    animation: background_effect .2s infinite;
+    opacity: .2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marquee {
+    animation: marquee 8s linear infinite;
+    position: absolute;
+    white-space: nowrap;
+    display: flex;
+}
+
+.marquee h2 {
+    opacity: .1;
+    font-size: 12vw;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+
+@keyframes background_effect {
+    0% {
+        background-position: 0 0;
+    }
+    10% {
+        background-position: -5% -5%;
+    }
+    20% {
+        background-position: -10% 5%;
+    }
+    30% {
+        background-position: 5% -10%;
+    }
+    40% {
+        background-position: -5% 15%;
+    }
+    50% {
+        background-position: -10% 5%;
+    }
+    60% {
+        background-position: 15% 0;
+    }
+    70% {
+        background-position: 0 10%;
+    }
+    80% {
+        background-position: -15% 0;
+    }
+    90% {
+        background-position: 10% 5%;
+    }
+    100% {
+        background-position: 5% 0;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        left: 0
+
+    }
+    100% {
+        left: 100%
+    }
+}

@@ -9,7 +9,7 @@ import {faBorderNone, faPhoneFlip} from "@fortawesome/free-solid-svg-icons";
 export const NavBar = () => {
     return (
       <ul className={style.navbar}>
-          <DataScrollNav icon={faHouse} name={'Главная'}/>
+          <DataScrollNav icon={faHouse} name={'Главная'} hrefWay={'home'}/>
           <DataScrollNav icon={faUser} name={'Скиллы'}/>
           <DataScrollNav icon={faBorderNone} name={'Проекты'}/>
           <DataScrollNav icon={faPhoneFlip} name={'Контакты'}/>

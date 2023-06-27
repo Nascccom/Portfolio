@@ -36,3 +36,6 @@ body {
     --bs-body-line-height: 1.6;
     overflow-x: hidden;
 }
+section {
+    display: block;
+}

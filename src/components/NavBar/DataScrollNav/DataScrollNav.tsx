@@ -11,7 +11,7 @@ type PropsType = {
 export const DataScrollNav = ({icon, hrefWay, name}: PropsType) => {
     return (
       <li className={style.dataScrollNav}>
-          <a href="#" className={style.link}>
+          <a href={`#${hrefWay}`} className={style.link}>
               <span className={style.activeLink}>
                   <SvgIcon icon={icon}/>
               </span>

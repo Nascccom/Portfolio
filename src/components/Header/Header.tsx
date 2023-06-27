@@ -12,6 +12,7 @@ export const Header = () => {
     console.log(isSmallScreen)
 
     function onClickButtonHandler() {
+        console.log('work')
         setToggle(!isToggle);
     }
 

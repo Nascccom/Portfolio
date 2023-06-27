@@ -1,23 +1,19 @@
 import React from 'react';
 import style from './NavBar.module.css'
+import {faHouse} from "@fortawesome/free-solid-svg-icons/faHouse";
+import {DataScrollNav} from "./DataScrollNav/DataScrollNav";
+import {faUser} from "@fortawesome/free-solid-svg-icons/faUser";
+import {faBorderNone, faPhoneFlip} from "@fortawesome/free-solid-svg-icons";
 
 
 export const NavBar = () => {
     return (
       <ul className={style.navbar}>
-          <li>
-              <a href="#" className={style.link}>
-                  <span>
-<img src="../../icons/house-door.svg" alt=""/>
-                  </span>
-                  <span>Главная</span>
-              </a>
-          </li>
-
-
-          <li><a href="#" className={style.link}>Скиллы</a></li>
-          <li><a href="#" className={style.link}>Проекты</a></li>
-          <li><a href="#">Контакты</a></li>
+          <DataScrollNav icon={faHouse} name={'Главная'}/>
+          <DataScrollNav icon={faUser} name={'Скиллы'}/>
+          <DataScrollNav icon={faBorderNone} name={'Проекты'}/>
+          <DataScrollNav icon={faPhoneFlip} name={'Контакты'}/>
       </ul>
     );
 };
+

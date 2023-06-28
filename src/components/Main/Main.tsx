@@ -26,6 +26,7 @@ export const Main = () => {
                           <SocialLinks/>
                       </div>
                   </div>
+
               </div>
           </section>
 

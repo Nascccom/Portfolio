@@ -21,7 +21,7 @@
     display: none;
     bottom: auto;
     width: 100%;
-    z-index: 11;
+    z-index: 10;
     padding: 15px 40px;
     color: var(--px-text);
     flex-direction: row;

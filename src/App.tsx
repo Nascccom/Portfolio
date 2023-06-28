@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import {Header} from "./features/Header/Header";
 import {Main} from "./components/Main/Main";
-import {Skills} from "./components/Skills/Skills";
+import {AboutMe} from "./features/AboutMe/AboutMe";
 import {MyWorks} from "./components/MyWorks/MyWorks";
 import {Contacts} from "./components/Contacts/Contacts";
 import {Footer} from "./features/Footer/Footer";
@@ -13,7 +13,7 @@ function App() {
           <div className="Container">
               <Header/>
               <Main/>
-              <Skills/>
+              <AboutMe/>
               <MyWorks/>
               <Contacts/>
               <Footer/>

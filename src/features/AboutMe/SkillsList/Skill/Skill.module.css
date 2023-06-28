@@ -1,0 +1,41 @@
+.skill h6 {
+    font-size: 16px;
+    margin: 0 0 10px
+}
+
+.skillBar {
+    background-color: var(--px-gray-4);
+}
+
+.skillBarIn {
+    transition: all .9s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    height: 5px;
+    position: relative;
+    width: 0;
+    min-width: 100px;
+    background-color: var(--bs-heading-color);
+}
+
+.skillBarIn span {
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 14px;
+}
+
+.skillBar .open{
+    width: 100%;
+    animation: wow 2s cubic-bezier(.165, .84, .44, 1);
+}
+
+
+@keyframes wow {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+

@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     border: none;
-    outline: none!important;
+    outline: none !important;
 }
 
 *,
@@ -25,14 +25,23 @@
     --px-gray-5: #383a3e;
     --bs-heading-color: #e3e3e3;
     --px-border: #444746;
+    --bs-border-width: 1px;
 }
 
 body {
     background-color: var(--px-bg);
     color: var(--px-text);
     font-family: Rubik, sans-serif;
-    --bs-body-font-weight: 400;
-    --bs-body-font-size: 1rem;
-    --bs-body-line-height: 1.6;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
     overflow-x: hidden;
+}
+
+section {
+    display: block;
+}
+
+li, a {
+    list-style: none;
 }

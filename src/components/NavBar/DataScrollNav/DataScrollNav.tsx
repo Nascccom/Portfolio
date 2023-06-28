@@ -1,5 +1,5 @@
 import style from "../NavBar.module.css";
-import {SvgIcon} from "../../../common/SvgIcon/SvgIcon";
+import {SvgIcon} from "../../SvgIcon/SvgIcon";
 import React from "react";
 import {IconDefinition} from "@fortawesome/free-solid-svg-icons";
 
@@ -11,7 +11,7 @@ type PropsType = {
 export const DataScrollNav = ({icon, hrefWay, name}: PropsType) => {
     return (
       <li className={style.dataScrollNav}>
-          <a href="#" className={style.link}>
+          <a href={`#${hrefWay}`} className={style.link}>
               <span className={style.activeLink}>
                   <SvgIcon icon={icon}/>
               </span>

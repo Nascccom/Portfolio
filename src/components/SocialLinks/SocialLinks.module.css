@@ -1,0 +1,28 @@
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 0;
+}
+
+.socialLinks li {
+    margin: 0 7px;
+}
+
+.socialLinks a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: var(--px-theme);
+    border: 2px solid var(--px-theme);
+    border-radius: 10px;
+    color: var(--px-theme-text);
+    transition: all 0.3s ease-in-out;
+}
+
+.socialLinks a:hover {
+    background-color: var(--px-theme-text);
+    color: var(--px-theme);
+}

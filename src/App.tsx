@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Header} from "./features/Header/Header";
-import {Main} from "./components/Main/Main";
+import {Main} from "./features/Main/Main";
 import {AboutMe} from "./features/AboutMe/AboutMe";
 import {MyWorks} from "./components/MyWorks/MyWorks";
 import {Contacts} from "./components/Contacts/Contacts";

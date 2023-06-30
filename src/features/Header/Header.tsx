@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import style from './Header.module.css'
-import {NavBar} from "../../components/NavBar/NavBar";
+import {NavBar} from "../NavBar/NavBar";
 import {faCircleHalfStroke} from "@fortawesome/free-solid-svg-icons/faCircleHalfStroke";
 import {SvgIcon} from "../../components/SvgIcon/SvgIcon";
 import {faBars} from "@fortawesome/free-solid-svg-icons/faBars";

@@ -41,11 +41,11 @@ const educationData: EducationDataType[] = [
 
 export const EducationBox = () => {
     return (
-      <div className={style.resumeBox}>
+      <div className={style.educationBox}>
           <ul>
               {educationData.map(course => {
                   return (
-                    <li>
+                    <li key={course.nameCourse}>
                         <div className={style.icon}>
                             <BsFillBriefcaseFill/>
                         </div>

@@ -1,4 +1,5 @@
-.container li {
+
+.contactsList li {
     display: flex;
     border: 2px solid var(--px-border);
     background-color: var(--px-bg);
@@ -7,10 +8,13 @@
     align-items: center;
     position: relative;
     transition: all .35s ease;
-    margin-bottom: 15px;
 }
 
-.container li:hover {
+.contactsList li + li {
+    margin-top: 25px;
+}
+
+.contactsList li:hover {
     background: var(--px-theme);
     border: 2px solid var(--px-theme);
 }

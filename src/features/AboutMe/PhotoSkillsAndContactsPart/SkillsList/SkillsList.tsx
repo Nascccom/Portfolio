@@ -1,12 +1,20 @@
 import React, {useEffect, useRef} from 'react';
-import style from "./Skill.module.css";
+import style from "./SkillList.module.css";
 
-type PropsType = {
+type skillType = {
     title: string
     percent: number
 }
+const skillsData: skillType[] = [
+    {title: 'HTML', percent: 98},
+    {title: 'CSS', percent: 93},
+    {title: 'JavaScript', percent: 93},
+    {title: 'React', percent: 94},
+    {title: 'Redux', percent: 95},
+]
 
-export const Skill = ({title, percent}: PropsType) => {
+export const SkillsList = () => {
+
     const skillBarInRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -40,19 +48,19 @@ export const Skill = ({title, percent}: PropsType) => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
-
-
     return (
-
-      <div className={style.skill}>
-          <h6>{title}</h6>
-          <div className={style.skillBar}>
-              <div className={style.skillBarIn}
-                   style={{width: `${percent}%`}}>
-                  <span> {`${percent}%`} </span>
-              </div>
-          </div>
-      </div>
-
+      <>
+          {skillsData.map(skill => (
+            <div className={style.skill} key={skill.title}>
+                <h6>{skill.title}</h6>
+                <div className={style.skillBar}>
+                    <div className={style.skillBarIn}
+                         style={{width: `${skill.percent}%`}}>
+                        <span> {`${skill.percent}%`} </span>
+                    </div>
+                </div>
+            </div>
+          ))}
+      </>
     );
 };

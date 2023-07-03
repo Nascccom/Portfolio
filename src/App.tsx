@@ -10,14 +10,12 @@ import {Footer} from "./features/Footer/Footer";
 function App() {
     return (
       <div className="App">
-          <div className="Container">
-              <Header/>
-              <Main/>
-              <AboutMe/>
-              <MyWorks/>
-              <Contacts/>
-              <Footer/>
-          </div>
+          <Header/>
+          <Main/>
+          <AboutMe/>
+          <MyWorks/>
+          <Contacts/>
+          <Footer/>
       </div>
     );
 }

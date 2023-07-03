@@ -1,4 +1,8 @@
-.resumeBox li {
+.educationBox li + li {
+    margin-top: 20px;
+}
+
+.educationBox li {
     background-color: var(--px-bg);
     border: 2px solid var(--px-border);
     padding: 15px 15px 20px 70px;

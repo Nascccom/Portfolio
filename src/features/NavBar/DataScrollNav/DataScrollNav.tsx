@@ -1,5 +1,5 @@
 import style from "../NavBar.module.css";
-import {SvgIcon} from "../../SvgIcon/SvgIcon";
+import {SvgIcon} from "../../../components/SvgIcon/SvgIcon";
 import React from "react";
 import {IconDefinition} from "@fortawesome/free-solid-svg-icons";
 

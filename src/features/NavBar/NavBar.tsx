@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './NavBar.module.css'
 import {faHouse} from "@fortawesome/free-solid-svg-icons/faHouse";
-import {DataScrollNav} from "./DataScrollNav/DataScrollNav";
 import {faUser} from "@fortawesome/free-solid-svg-icons/faUser";
 import {faBorderNone, faPhoneFlip} from "@fortawesome/free-solid-svg-icons";
+import {DataScrollNav} from "./DataScrollNav/DataScrollNav";
 
 
 export const NavBar = () => {

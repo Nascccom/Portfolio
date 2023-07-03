@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Main.module.css'
 import styleContainer from '../../common/styles/Container.module.css'
 import {BackgroundEffect} from "./Background_Effect/BackgroundEffect";
-import {SocialLinks} from "../SocialLinks/SocialLink";
+import {SocialLinks} from "../../components/SocialLinks/SocialLink";
 
 
 export const Main = () => {

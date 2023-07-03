@@ -1,0 +1,36 @@
+.aboutMePhotoBlock {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.aboutMeImg {
+    background-image: url("../../../common/assets/MyPhotoMinSize.jpg");
+    width: 330px;
+    height: 330px;
+    z-index: 12;
+    border-radius: 16px;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.contactWithMeBlock {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.skillsBlock {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .aboutMePhotoBlock {
+        flex: 0 0 auto;
+        width: 58.33333333%;
+    }
+
+    .contactWithMeBlock {
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+}

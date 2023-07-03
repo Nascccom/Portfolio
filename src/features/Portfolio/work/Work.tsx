@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import style from "./Work.module.css";
-import {BsFillArrowUpRightCircleFill} from "react-icons/bs";
 
 type PropsType = {
     title: string
     description: string
+    link: string
 }
 
-export const Work = ({title, description}: PropsType) => {
+export const Work = ({title, description, link}: PropsType) => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMouseEnter = () => {
@@ -20,22 +20,22 @@ export const Work = ({title, description}: PropsType) => {
 
     return (
 
-      <div className={style.portfolioBox} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-
-          <div className={style.portfolioImg}>
+      <div className={style.portfolioBox}
+           onMouseEnter={handleMouseEnter}
+           onMouseLeave={handleMouseLeave}>
+          <div className={style.imgBox}>
               <img
-                src="https://nationaltoday.com/wp-content/uploads/2022/09/1-First-Day-of-Autumn-1200x834.jpg"
+                src="https://bipbap.ru/wp-content/uploads/2017/06/1a7a46es-960.jpg"
                 alt=""/>
           </div>
 
           {isHovered && (
-            <div className={style.portfolioText}>
-                <h6>{title}</h6>
-                <p>{description}</p>
-                <a href="#" className={style.portfolioLink}>
-                    <BsFillArrowUpRightCircleFill/>
-                </a>
-            </div>
+            <a href="#" className={style.portfolioText}>
+                <div className={style.text}>
+                    <h6>{title}</h6>
+                    <p>{description}</p>
+                </div>
+            </a>
           )}
 
       </div>

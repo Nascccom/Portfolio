@@ -7,14 +7,11 @@
     flex-direction: column;
 }
 
-.lightboxGallery {
-
-}
-
 .portfolioContent {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    justify-content: center;
+    gap: 10px;
 }
 
 @media (max-width: 1490px) {
@@ -23,8 +20,15 @@
     }
 }
 
-@media (max-width: 1200px) {
-    .lightboxGallery {
-
+@media (max-width: 1000px) {
+    .portfolioBlock {
+        margin-left: 0
     }
 }
+
+/*@media (max-width: 770px) {*/
+/*    .portfolioContent {*/
+/*        flex-direction: column;*/
+/*        align-content: center*/
+/*    }*/
+/*}*/

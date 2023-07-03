@@ -3,7 +3,7 @@ import './App.css';
 import {Header} from "./features/Header/Header";
 import {Main} from "./features/Main/Main";
 import {AboutMe} from "./features/AboutMe/AboutMe";
-import {MyWorks} from "./components/MyWorks/MyWorks";
+import {Portfolio} from "./features/Portfolio/Portfolio";
 import {Contacts} from "./components/Contacts/Contacts";
 import {Footer} from "./features/Footer/Footer";
 
@@ -13,7 +13,7 @@ function App() {
           <Header/>
           <Main/>
           <AboutMe/>
-          <MyWorks/>
+          <Portfolio/>
           <Contacts/>
           <Footer/>
       </div>

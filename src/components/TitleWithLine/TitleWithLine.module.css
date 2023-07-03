@@ -1,0 +1,23 @@
+.sectionTitle {
+    padding-bottom: 45px
+}
+
+.sectionTitle h3 {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.sectionTitle h3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--px-theme);
+    width: 60px;
+    height: 3px;
+}

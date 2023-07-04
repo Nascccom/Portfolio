@@ -3,6 +3,7 @@ import style from './Main.module.css'
 import styleContainer from '../../common/styles/Container.module.css'
 import {BackgroundEffect} from "./Background_Effect/BackgroundEffect";
 import {SocialLinks} from "../../components/SocialLinks/SocialLink";
+import {PhotoTitle} from "../../components/PhotoTitle/PhotoTitle";
 
 
 export const Main = () => {
@@ -14,11 +15,7 @@ export const Main = () => {
               <div className={`${styleContainer.container} ${style.mainContainer}`}>
 
                   <div className={style.homeCard}>
-                      <div className={style.homeImg}>
-                          <div className={style.homeImgIn}>
-                              <div className={style.photo}></div>
-                          </div>
-                      </div>
+                      <PhotoTitle styles={{width: '300px', height: '300px'}}/>
 
                       <div className={style.homeIntro}>
                           <h1>Anastasiya Salimova</h1>

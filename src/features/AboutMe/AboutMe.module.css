@@ -40,19 +40,19 @@
 
 @media (max-width: 1490px) {
     .aboutMeBlock {
-        padding-left: 70px
+        margin-left: 70px
     }
 }
 
 @media (max-width: 1235px) {
     .aboutMeBlock {
-        padding-left: 80px
+        margin-left: 80px
     }
 }
 
 @media (max-width: 1000px) {
     .aboutMeBlock {
-        padding-left: 0
+        margin-left: 0
     }
 }
 

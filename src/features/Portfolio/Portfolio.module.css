@@ -16,7 +16,13 @@
 
 @media (max-width: 1490px) {
     .portfolioBlock {
-        margin-left: 100px
+        margin-left: 70px
+    }
+}
+
+@media (max-width: 1235px) {
+    .portfolioBlock {
+        margin-left: 80px
     }
 }
 
@@ -25,10 +31,3 @@
         margin-left: 0
     }
 }
-
-/*@media (max-width: 770px) {*/
-/*    .portfolioContent {*/
-/*        flex-direction: column;*/
-/*        align-content: center*/
-/*    }*/
-/*}*/

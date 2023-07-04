@@ -14,6 +14,7 @@
 }
 
 :root {
+    --bs-body-color: #adb5bd;
     --px-theme: #004a77;
     --px-theme-text: #c2e7ff;
     --px-bg: #1f1f1f;
@@ -26,6 +27,7 @@
     --bs-heading-color: #e3e3e3;
     --px-border: #444746;
     --bs-border-width: 1px;
+    --bs-border-color: #495057;
 }
 
 body {
@@ -52,7 +54,32 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
     color: var(--bs-heading-color, inherit);
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: inline-block;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
 }

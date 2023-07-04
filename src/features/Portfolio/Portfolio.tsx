@@ -28,21 +28,6 @@ export const Portfolio = () => {
                               "Dolore ea magnpor dolor. Clita lorem kasd sed euo sit ipsum stet lorem diam"}
                             link={''}
                       />
-                      <Work title={'Todolist'}
-                            description={"Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita " +
-                              "lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam"}
-                            link={''}
-                      />
-                      <Work title={'Social Network'}
-                            description={"Tempor eos dolore amet tempor dolor tempor. " +
-                              "Dolore ea magnpor dolor. Clita lorem kasd sed euo sit ipsum stet lorem diam"}
-                            link={''}
-                      />
-                      <Work title={'Filmix'}
-                            description={"Tempor eos dolore amet tempor dolor tempor. " +
-                              "Dolore ea magnpor dolor. Clita lorem kasd sed euo sit ipsum stet lorem diam"}
-                            link={''}
-                      />
                   </div>
               </div>
 

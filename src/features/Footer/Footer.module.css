@@ -1,32 +1,28 @@
-.footerBlock {
-    background-color: darkkhaki;
+.footer {
+    position: relative;
+    background-color: var(--px-bg);
+    border-top: 2px solid var(--px-gray-2);
 }
 
 .footerContainer {
+    display: flex;
     flex-direction: column;
     align-items: center;
-}
-.name{
-    margin: 10px;
+    margin: auto auto 40px;
 }
 
-.iconsWrapper {
-    border: 1px solid;
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
-
+.footerInfo {
+    text-align: center;
+    margin-top: -50px;
 }
 
-.icon {
-    background-color: crimson;
-    width: 50px;
-    height: 50px;
+.footerInfo h6 {
+    margin: 15px 0 0;
+    font-size: 1rem;
 }
 
-@media (max-width: 590px) {
-    .iconsWrapper {
-        width: 80%;
-    }
+.footerContent p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
 }

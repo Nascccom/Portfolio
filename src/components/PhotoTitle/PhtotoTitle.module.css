@@ -1,0 +1,10 @@
+.homeImgIn {
+    background-image: url("../../common/assets/photoMinSize.jpg");
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 12px solid var(--px-gray-3);
+    box-shadow: 0 0 0 12px var(--px-gray-1);
+    z-index: 12;
+    background-size: cover;
+}

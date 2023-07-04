@@ -20,10 +20,10 @@ const contactsData: ContactType[] = [
 
 export const AboutMeContactList = () => {
     return (
-      <ul className={style.container}>
+      <ul className={style.contactsList}>
           {contactsData.map(c => {
               return (
-                <li>
+                <li key={c.id}>
                     <div className={style.icon}>
                         {c.icon}
                     </div>

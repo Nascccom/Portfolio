@@ -1,0 +1,30 @@
+.portfolioBlock {
+    padding: 100px 0;
+    position: relative;
+}
+
+.portfolioContainer {
+    flex-direction: column;
+}
+
+.lightboxGallery {
+
+}
+
+.portfolioContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+@media (max-width: 1490px) {
+    .portfolioBlock {
+        margin-left: 100px
+    }
+}
+
+@media (max-width: 1200px) {
+    .lightboxGallery {
+
+    }
+}

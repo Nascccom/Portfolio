@@ -13,9 +13,7 @@ export const PhotoSkillsAndContactsPart = () => {
 
 
           <div className={style.contactWithMeBlock}>
-              <div className={style.aboutContent}>
-                  <AboutMeContactList/>
-              </div>
+              <AboutMeContactList/>
           </div>
 
 

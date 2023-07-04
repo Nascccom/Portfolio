@@ -1,3 +1,8 @@
+.skill {
+    width: 98%;
+    padding-top: 30px;
+}
+
 .skill h6 {
     font-size: 16px;
     margin: 0 0 10px
@@ -23,7 +28,7 @@
     font-size: 14px;
 }
 
-.skillBar .open{
+.skillBar .open {
     width: 100%;
     animation: wow 2s cubic-bezier(.165, .84, .44, 1);
 }
